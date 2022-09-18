@@ -3,6 +3,8 @@ const listers = document.getElementById('lister')
 const percentage = document.getElementById('percentage')
 const remained = document.getElementById('remaind')
 
+updateBigCup()
+
 smallCups.forEach((cup, idx) => {
     cup.addEventListener('click', () => highlightCups(idx))
 })
